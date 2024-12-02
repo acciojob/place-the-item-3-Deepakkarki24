@@ -1,8 +1,9 @@
 
 /* Your CSS Code here. */
-.holder{
-	display:flex;
-	align-items:center;
-	justify-content:space-evenly;
-	flex-wrap: nowrap;
+.holder {
+  display: flex; /* Enable flexbox layout */
+  flex-wrap: wrap; /* Allow items to wrap onto the next row if needed */
+  justify-content: space-between; /* Distribute items evenly with equal space between them */
+  gap: 10px; /* Optional: add spacing between rows and columns */
 }
+
